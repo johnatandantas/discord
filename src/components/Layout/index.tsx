@@ -2,6 +2,12 @@ import React from 'react';
 
 import { Grid } from './styles';
 
-const Layout: React.FC = () => <Grid />;
+import ServerList from '../ServerList';
+
+const Layout: React.FC = () => (
+  <Grid>
+    <ServerList />
+  </Grid>
+);
 
 export default Layout;
