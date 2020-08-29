@@ -1,0 +1,7 @@
+{
+  "*.ts*": [
+    "eslint --fix",
+    "CI=true yarn test --bail --findRelatedTests",
+    "git add"
+  ]
+}
